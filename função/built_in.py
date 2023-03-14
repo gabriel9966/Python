@@ -1,3 +1,4 @@
+#funções built-in são funções que não precisam importar pacotes
 s = "oi tudo bem com vc, td "
 a = s.upper()
 print(a)
@@ -19,3 +20,11 @@ print(f)
 
 g = "78172"
 print(g.isalnum())
+#built-in
+numeros = [10,9,8,7,6,5,4,3,2,1,0,10]
+print(len(numeros))
+print(max(numeros))
+print(min(numeros))
+numeros.append(15)
+print(numeros)
+print(numeros.count(10))#conta a quantidade de elementos desse no array
