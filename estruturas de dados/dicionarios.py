@@ -7,8 +7,8 @@ estudante["larisa"] = 23
 
 print(estudante)
 
-print(estudante.keys())
-print(estudante.items())
+print(estudante.keys())# so as chaves
+print(estudante.items())# imprimi tudo
 
 
 estudante.clear()
