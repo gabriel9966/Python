@@ -1,4 +1,4 @@
-#funções built-in são funções que não precisam importar pacotes
+#funções built-in são funções que não precisam importar pacotes, são funções internas
 s = "oi tudo bem com vc, td "
 a = s.upper()
 print(a)
