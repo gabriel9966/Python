@@ -1,4 +1,4 @@
-#agrupa elementos de múltiplas estruturas de dados iteráveis
+#agrupa elementos de múltiplas estruturas de dados iteráveis, se um elemento for maior que o outro , não ira agrupar tudo
 x = [1,2,3]
 y = [4,5,6]
 lista =list(zip(x,y))
