@@ -60,7 +60,7 @@ def game():
     
     
         
-#bloco main 
+#bloco main, quanto o programa e rodado ele inicia a função game
 
 if __name__ == "__main__":
     game()
