@@ -15,7 +15,7 @@ def game():
     print("Bem vindo a forca !!!")
     print("Adivinhe a palavra abaixo ")
 
-    letra = input("Digite a letra")
+
     
     palavras = ["manga","abacaxi","uva","laranja","maracuja","morango","abacate"]
     
@@ -26,7 +26,7 @@ def game():
     
     #list comprehenshion
     letras_descobertas = ["-" for letra in palavra_escolhida]
-    
+
     chances = 6
     letras_erradas = []
     
@@ -50,10 +50,21 @@ def game():
             chances -=1
             letras_erradas.append(tentativa)
             
+            
+        if "-" not in letras_descobertas:
+            print("Você venceu !!! a palavra era :",palavra_escolhida)
+            break
         
+    if "-" in letras_descobertas:
+        print("inforcou !!!! a palavra era :",palavra_escolhida)
+    
     
         
+#bloco main 
+
+if __name__ == "__main__":
+    game()
         
-game()
+        
 
 
