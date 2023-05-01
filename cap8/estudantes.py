@@ -24,5 +24,13 @@ enzo = Estudantes("Enzo",18,7.5)
 
 print(enzo.imprimir())
 print(Estudantes.contarPessoas())
-        
+
+print(hasattr(enzo,"nome"))#tem atributo
+print(setattr(enzo,"idade",38))#modifica atributo
+print(enzo.idade)
+idade_enzo = getattr(enzo,"idade")
+print("A idade do enzo e :",idade_enzo)
+delattr(enzo,"idade")#delete atributo
+print(hasattr(enzo,"idade"))
+print(enzo.idade)
         
