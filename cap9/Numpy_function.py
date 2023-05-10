@@ -22,3 +22,6 @@ print("\n",arr4)#matriz diagonal
 
 arr5 = np.diag(np.array([1,2,3,4]))#matriz diagonal
 print("\n",arr5)
+
+arr6 = np.linspace(0,10)
+print(arr6)
