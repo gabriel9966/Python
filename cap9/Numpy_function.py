@@ -25,3 +25,6 @@ print("\n",arr5)
 
 arr6 = np.linspace(0,10)
 print(arr6)
+
+arr7 = np.linspace(0,10,15)
+print("\n",arr7)
