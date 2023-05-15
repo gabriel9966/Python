@@ -29,3 +29,4 @@ print("Numero de dimensões:",arr4.ndim)
 print("\n Array de 4D \n")
 print("\n",arr4)
 print(arr4.shape)#formato do array
+

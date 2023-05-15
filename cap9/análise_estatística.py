@@ -10,3 +10,6 @@ idade = [12,20,9,67,45,33,42,75,26]
 Desvio_padrao = np.std(idade)
 print("media:",np.mean(idade))
 print("Desvio padrao:",Desvio_padrao)
+
+variancia = np.var(idade)
+print("Variancia:",variancia)
