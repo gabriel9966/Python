@@ -24,7 +24,7 @@ print(df.index)
 print(df.describe())
 
 
-print(df.isna())#Tem valor nan
+print(df.isna())#Tem valor nan (not a number)
 print(df["Taxa de Crescimento"].isna())
 
 df["Taxa de Crescimento"] = np.arange(6)#usando numpy com  pandas
