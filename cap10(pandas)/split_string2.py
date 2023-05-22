@@ -9,5 +9,5 @@ print(a)
 
 #removendo o numero 20 a esquerda
 
-a = df["Data_Pedido"].str.strip("20")
+a = df["Data_Pedido"].str.lstrip("20")#l por que é left = esquerda
 print(a)
