@@ -5,3 +5,5 @@ print(b)
 a = 20
 print(a) 
 # a = símbolo, 10 = valor
+
+print("oii")
